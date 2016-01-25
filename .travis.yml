@@ -1,14 +1,17 @@
 language: R
 sudo: false
 
+env: TEXMFHOME=~/texmf
+
 cache: R
 
 script:
+  # Alias tlmgr to start in usermode
+  - "echo \"alias tlmgr=\\\"/usr/texbin/tlmgr --usermode\\\"\" >> .bashrc"
+
   - "tlmgr init-usertree"
 
   # init-usertree does not creat a backups directory
   - "mkdir -p $TEXMFHOME/tlpkg/backups"
 
-  # Alias tlmgr to start in usermode
-  - "echo \"alias tlmgr=\\\"tlmgr --usermode\\\"\" >> .bashrc"
   - tlmgr update --self
