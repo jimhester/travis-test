@@ -8,6 +8,8 @@ cache: R
 script:
   # Alias tlmgr to start in usermode
   - "echo \"alias tlmgr=\\\"/usr/texbin/tlmgr --usermode\\\"\" >> ~/.bashrc"
+  - cat ~/.bashrc
+  - source ~/.bashrc
 
   - "tlmgr init-usertree"
 
