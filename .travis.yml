@@ -8,9 +8,8 @@ cache: R
 script:
   # Alias tlmgr to start in usermode
   # prepend alias to bashrc. We cannot append it because it exits early if there is a interactive shell
-  - sed -i "/# If not running interactively, don't do anything/ishopt -s expand_aliases;alias tlmgr=\"/usr/texbin/tlmgr --usermode\"" ~/.bashrc
-  - cat ~/.bashrc
-  - source ~/.bashrc
+  - sed -i "/# If not running interactively, don't do anything/ishopt -s expand_aliases;alias tlmgr=\"tlmgr --usermode\"" ~/.bashrc
+  - export PATH=$PATH:
 
   - "tlmgr init-usertree"
 
