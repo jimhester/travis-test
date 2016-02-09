@@ -11,8 +11,8 @@ r_packages:
   - rmarkdown
 
 repos:
-  CRAN: "https://cran.rstudio.org"
-  ropensci: "https://packages.ropensci.org"
+  CRAN: "http://cran.rstudio.org"
+  ropensci: "http://packages.ropensci.org"
 
 cache: packages
 
