@@ -8,7 +8,7 @@ addons:
     - libcurl4-openssl-dev
 
 r_packages:
-  rmarkdown
+  - rmarkdown
 
 repos:
   CRAN: "https://cran.rstudio.org"
