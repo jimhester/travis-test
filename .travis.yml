@@ -1,6 +1,6 @@
 language: R
 
-r: devel
+R: 3.1
 
 cache:
   packages
