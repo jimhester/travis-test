@@ -1,8 +1,7 @@
 language: R
 
 repos:
-  CRAN: "https://cran.rstudio.org"
-  ropensci: "https://packages.ropensci.org"
+  CRAN: "http://cran.rstudio.org"
 
 cache: packages
 
