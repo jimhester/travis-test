@@ -1,5 +1,7 @@
 language: R
 
+r: devel
+
 cache:
   packages
 
