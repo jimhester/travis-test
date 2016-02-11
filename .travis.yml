@@ -20,4 +20,3 @@ before_install:
   #- export PATH=$HOME/R-bin/bin:$PATH
   #- export LD_LIBRARY_PATH=$HOME/R-bin/lib:$LD_LIBRARY_PATH
   #- Rscript -e 'sessionInfo()'
-  - echo "$_R_CHECK_CRAN_INCOMING_"
