@@ -1,5 +1,10 @@
 language: R
 
+r: devel
+
+bioc_required: true
+bioc_use_devel: true
+
 cran: http://cloud.r-project.org
 
 cache:
