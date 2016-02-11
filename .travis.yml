@@ -1,12 +1,5 @@
 language: R
 
-addons:
-  apt:
-    sources:
-    - r-packages-precise
-    packages:
-    - libcurl4-openssl-dev
-
 repos:
   CRAN: "https://cran.rstudio.org"
   ropensci: "https://packages.ropensci.org"
@@ -14,7 +7,7 @@ repos:
 cache: packages
 
 before_install:
-  - cat ~/.Rprofile
+  - cat ~/.Rprofile.site
   - Rscript -e 'options("repos")'
   #- chmod u+x setup.sh;./setup.sh
   #- export PATH=$HOME/R-bin/bin:$PATH
