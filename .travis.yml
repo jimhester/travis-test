@@ -6,7 +6,7 @@ cache:
 before_install:
   - cat ~/.Rprofile.site
   - Rscript -e 'options("repos")'
-  - rm -rf $R_LIBS_USER
+  - rm -rvf ~/R/Library
   #- chmod u+x setup.sh;./setup.sh
   #- export PATH=$HOME/R-bin/bin:$PATH
   #- export LD_LIBRARY_PATH=$HOME/R-bin/lib:$LD_LIBRARY_PATH
