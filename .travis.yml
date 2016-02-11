@@ -2,6 +2,8 @@ language: R
 
 r: 3.1
 
+cran: http://cloud.r-project.org
+
 cache:
   packages
 
