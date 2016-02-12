@@ -1,5 +1,6 @@
 language: R
-sudo: false
+sudo: required
+dist: precise
 
 r: 3.2
 
