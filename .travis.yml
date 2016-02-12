@@ -4,4 +4,5 @@ r:
   - oldrel
   - release
   - devel
-r_binary_packages: withr
+r_binary_packages:
+  - withr
