@@ -2,7 +2,8 @@ language: R
 
 r: 3.2
 
-r_binary_packages: devtools
+r_binary_packages:
+  - devtools
 
 bioc_required: true
 
