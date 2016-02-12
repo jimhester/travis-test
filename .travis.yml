@@ -1,4 +1,5 @@
 language: R
+sudo: required
 
 r: 3.2
 
