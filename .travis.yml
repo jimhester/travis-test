@@ -1,4 +1,4 @@
 language: r
-sudo: false
-dist: trusty
-r: 3.2
+sudo: required
+dist: precise
+r: devel
