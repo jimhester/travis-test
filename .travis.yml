@@ -1,7 +1,4 @@
 language: r
-sudo: false
-dist: trusty
-r: devel
-r_binary_packages: withr
-use_bioc: true
-use_bioc_devel: true
+sudo: required
+dist: precise
+r: 3.1
