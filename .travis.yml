@@ -1,5 +1,5 @@
 language: r
-sudo: false
-dist: precise
+sudo: required
+dist: trusty
 r: devel
 use_bioc: true
