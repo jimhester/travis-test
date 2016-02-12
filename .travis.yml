@@ -1,6 +1,6 @@
 language: r
-sudo: false
-dist: trusty
-r: 3.2
+sudo: required
+dist: precise
+r: devel
 r_binary_packages: withr
 use_bioc: true
