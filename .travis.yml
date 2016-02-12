@@ -2,18 +2,18 @@ language: R
 sudo: required
 dist: precise
 
-r: 3.2
+#r: 3.2
 
-r_binary_packages:
-  - devtools
+#r_binary_packages:
+  #- devtools
 
-cache:
-  packages
+#cache:
+  #packages
 
-before_install:
-  - cat ~/.Rprofile.site
-  - Rscript -e 'options("repos")'
-  - rm -rvf ~/R/Library
+#before_install:
+  #- cat ~/.Rprofile.site
+  #- Rscript -e 'options("repos")'
+  #- rm -rvf ~/R/Library
   #- chmod u+x setup.sh;./setup.sh
   #- export PATH=$HOME/R-bin/bin:$PATH
   #- export LD_LIBRARY_PATH=$HOME/R-bin/lib:$LD_LIBRARY_PATH
