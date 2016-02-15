@@ -1,4 +1,4 @@
 language: r
 sudo: required
-dist: precise
-apt_packages: texinfo
+apt_packages:
+  - texinfo
