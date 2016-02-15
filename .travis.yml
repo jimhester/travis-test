@@ -1,5 +1,8 @@
 language: R
 cache: packages
+dist:
+  - precise
+  - trusty
 r:
   - oldrel
   - release
