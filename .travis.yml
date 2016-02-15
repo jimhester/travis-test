@@ -1,8 +1,5 @@
 language: R
-cache: packages
-dist:
-  - precise
-  - trusty
+sudo: required
 r:
   - oldrel
   - release
