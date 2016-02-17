@@ -1,5 +1,5 @@
 #library(testthat)
 library(travistest)
 
-stop("failed")
+#stop("failed")
 #test_check("travistest")
