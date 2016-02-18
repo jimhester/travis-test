@@ -1,6 +1,9 @@
 language: r
 sudo: required
 
+env:
+  - R_LIBS_SITE=/usr/local/lib/R/site-library:/usr/lib/R/site-library
+
 before_install:
   echo $R_LIBS_SITE
 
