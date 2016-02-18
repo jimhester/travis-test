@@ -1,6 +1,6 @@
 language: r
 sudo: required
-r:
-  - oldrel
-  - release
-  - devel
+
+before_install:
+  echo $R_LIBS_SITE
+
