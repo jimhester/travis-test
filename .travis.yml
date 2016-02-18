@@ -2,6 +2,6 @@ language: r
 sudo: false
 
 before_install:
-  echo $R_LIBS_SITE
-  echo $R_LIBS_USER
-  env
+  - echo $R_LIBS_SITE
+  - echo $R_LIBS_USER
+  - env
