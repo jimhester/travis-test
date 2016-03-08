@@ -1,6 +1,5 @@
 language: r
-sudo: required
-os: osx
+sudo: false
 
 before_install:
   - echo $R_LIBS_SITE
