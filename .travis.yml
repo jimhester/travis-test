@@ -5,4 +5,4 @@ os: osx
 before_install:
   - echo $R_LIBS_SITE
   - echo $R_LIBS_USER
-  - sudo tlmgr install framed
+  - curl -L https://raw.githubusercontent.com/yihui/ubuntu-bin/master/TeXLive.pkgs | xargs sudo tlmgr install
