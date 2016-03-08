@@ -5,4 +5,4 @@ os: osx
 before_install:
   - echo $R_LIBS_SITE
   - echo $R_LIBS_USER
-  - env 
+  - sudo tlmgr install framed
