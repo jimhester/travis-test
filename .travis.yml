@@ -1,7 +1,7 @@
 language: r
-sudo: false
+sudo: true
 
 before_install:
   - echo $R_LIBS_SITE
   - echo $R_LIBS_USER
-  - curl -L https://raw.githubusercontent.com/yihui/ubuntu-bin/master/TeXLive.pkgs | xargs sudo tlmgr install
+  - cd pkg
