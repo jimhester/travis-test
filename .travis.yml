@@ -6,3 +6,5 @@ before_install:
   - echo $R_LIBS_SITE
   - echo $R_LIBS_USER
   - cd pkg
+
+r_github_packages: jimhester/covr
