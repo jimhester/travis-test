@@ -4,6 +4,7 @@
 #' @return Square of \code{x}.
 #' @export
 square = function(x) {
+  alarm()
     assertNumber(x, na.ok = FALSE)
     x^2
 }
