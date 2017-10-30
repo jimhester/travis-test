@@ -1,6 +1,4 @@
 language: r
 sudo: false
-os: osx
 
-before_script:
-  - Rscript -e "cat(devtools::check_failures(path = \"${RCHECK_DIR}\"), \"\\\n\")"
+pandoc_version: 2.0
